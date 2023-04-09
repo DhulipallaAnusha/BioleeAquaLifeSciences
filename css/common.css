@@ -40,11 +40,14 @@ p{float:left; width:100%; font-size:14px; line-height:26px; color:#5b5b5b;}
 .par_title span{color:#82CD47;}
 .par_title b{color:#007a48;}
 
-.title{float:left; width:100%; text-transform:uppercase; font-size:22px; text-align:center; font-family: 'Oswald', sans-serif; /*font-family: 'Anton', sans-serif;*/ font-weight:normal;}
+.title{float:left;margin-bottom: 27px; width:100%; text-transform:uppercase; font-size:22px; text-align:center; font-family: 'Oswald', sans-serif; /*font-family: 'Anton', sans-serif;*/ font-weight:normal;}
 .title span{color:#82CD47;}
 .title b{color:#007a48;}
 
-.title_lat{float:left; width:100%; text-transform:uppercase; padding:10px 0; font-size:20px; text-align:center; font-family: 'Oswald', sans-serif; /*font-family: 'Anton', sans-serif;*/ font-weight:normal; color:#007a48; background-color:#e2e2e2; border:1px #fff solid;}
+.title_lat{float:left; width:100%; text-transform:uppercase; padding:10px 0; font-size:20px; text-align:center; font-family: 'Oswald', sans-serif; /*font-family: 'Anton', sans-serif;*/ font-weight:normal; color:#007a48; 
+    /* background-color:#e2e2e2;  */
+    background-color: black;
+    border:1px #fff solid;}
 .title_lat span{color:#82CD47;}
 /*.title_lat b{color:#007a48;}*/
 
@@ -114,9 +117,16 @@ p{float:left; width:100%; font-size:14px; line-height:26px; color:#5b5b5b;}
 .service{float:left; width:100%;}
 .service ul{float:left; width:100%;}
 .service ul li{float:left; width:20%; padding:0.5%; }
-.service ul li a{float:left; width:100%; background-color:#fff; padding:3%; box-shadow: 0 0 5px #bcbcbc;}
+.service ul li a{float:left; width:100%;
+     /* background-color:#fff; */
+     background-color:black;
+     padding:3%;
+      box-shadow: 0 0 5px #bcbcbc;
+    }
 .service ul li a img{float:left; width:100%;}
-.service ul li a span{float:left; width:100%; text-align:center; color:#6f6f6f; font-size:16px; text-transform:uppercase; margin-top:7px;}
+.service ul li a span{float:left; width:100%; text-align:center; color:white;
+    /* color:#6f6f6f; */
+     font-size:16px; text-transform:uppercase; margin-top:7px;}
 
 .latest{float:left; width:30%; background-color:#f5f5f5; box-shadow: 0 0 5px #bcbcbc; border:1px #fff solid;}
 .video{float:right; width:68%; background-color:#f5f5f5; box-shadow: 0 0 5px #bcbcbc; border:1px #fff solid;}
